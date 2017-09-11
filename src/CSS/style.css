@@ -1,0 +1,68 @@
+h1#gameName{
+	text-align:center;
+}
+#mainUI{
+	height:600px;
+	width:1200px;
+	margin:20px auto;
+	border:1px solid #ccc;
+}
+#gameInfoContent{
+	width:225px;
+	height:500px;
+	float:left;
+	background-color:#cdd;
+}
+#playUI{
+	width:700px;
+	height:500px;
+	margin:0 25px;
+	float:left;
+	background-color:#ddd;
+}
+#menuContent{
+	width:225px;
+	height:400px;
+	float:right;
+	text-align:center;
+	padding:50px 0;
+}
+#numChooseBar{
+	width:700px;
+	margin:10px auto;
+}
+#playUI table#playContent{
+	border:1px solid green;
+	border-collapse:collapse;
+	width:680px;
+	margin:0 auto;
+}
+#playUI table#playContent td{
+	border:1px solid green;
+	width:70px;
+	height:52px;
+	text-align:center;
+	font-size:24px;
+}
+table#numChooseTable td{
+	border:2px solid blue;
+	width:71px;
+	height:52px;
+	text-align:center;
+	font-size:24px;
+	cursor:pointer;
+}
+table#numChooseTable td.cur{
+	border:2px solid red;
+}
+.area00,.area11,.area22{
+	background-color:#FEEC98;
+}
+.area02,.area20{
+	background-color:#cde6c7;
+}
+.hole{
+	background-color:#fff;
+	cursor:pointer;
+	color:green;
+}
