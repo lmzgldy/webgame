@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8"/>
-	<title>趣味数独</title>
-	<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
-	<script type="text/javascript" src="JS/xd.js"></script>
-</head>
-<body>
-<h2 id="gameName">趣味数独</h2>
-<div id="mainUI">
-<div id="gameInfoContent"></div>
-<div id="playUI">
-	<table id="playContent">
 
-	</table>
-</div>
-<div id="menuContent">
-<a href="javascript:newGame()">新的游戏</a><br><br>
-<a href="javascript:resetGame()">重玩本局</a><br><br>
-<a href="javascript:showAnswer()">显示答案</a>
-</div>
-<div style="clear:both;"></div>
-<div id="numChooseBar">
-<table id="numChooseTable">
-	<tr><td   class="cur">1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
-</table>
-</div>
-</div>
-<p id="mes"></p>
-<script type="text/javascript">
-	newGame();
-</script>
+<head>
+	<meta charset="utf-8" />
+	<title>趣味数独</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css" />
+	<!-- <script type="text/javascript" src="JS/xd.js"></script> -->
+	<script type="text/javascript" src="../build/xdGame-1.0.0.js.min.js"></script>
+</head>
+
+<body>
+	<h1 id="gameName">趣味数独</h1>
+	<div id="mainUI">
+		<div id="gameInfoContent"></div>
+		<div id="playUI">
+			<table id="playContent">
+
+			</table>
+		</div>
+		<div id="menuContent">
+			<a href="javascript:newGame()">新的游戏</a><br><br>
+			<a href="javascript:resetGame()">重玩本局</a><br><br>
+			<a href="javascript:showAnswer()">显示答案</a>
+		</div>
+		<div style="clear:both;"></div>
+		<div id="numChooseBar">
+			<table id="numChooseTable">
+				<tr>
+					<td class="cur">1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<p id="mes"></p>
+	<script type="text/javascript">
+		newGame();
+	</script>
 </body>
 </html>
